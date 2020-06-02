@@ -11,7 +11,7 @@ This program can achieve three major tasks:
   The "CocoGmane.py" was wrote by myself, and other files were fully understood and used in this program.
 - You need to install the SQLite browser to view and modify the database:
   Refer to https://sqlitebrowser.org/dl/
-- The email archive data was pulled dowm from http://mbox.dr-chuck.net/sakai.devel/. This is just a copy of the original gmane database from http://home.gmane.org/.
+- The email archive data was pulled dowm from http://mbox.dr-chuck.net/sakai.devel/. This is just a copy of the original gmane   database from http://home.gmane.org/.
 - Windows has difficulty in displaying UTF-8 characters
   in the console so for each console window you open, you may need
   to type the following command before running this code:
@@ -44,7 +44,7 @@ This is intentional as it allows you to look at content.sqlite to debug the proc
 
       Each time gmodel.py runs - it completely wipes out and re-builds index.sqlite.
       
-      The file index.sqlite will be much smaller (often 10X smaller) than content.sqlite because it also compresses the header and body text.
+      The file index.sqlite will be much smaller (often 10X smaller) than content.sqlite because it also compresses the header       and body text.
 
  The gmodel.py program does a number of data cleaing steps: 
 
@@ -89,7 +89,7 @@ This is intentional as it allows you to look at content.sqlite to debug the proc
 
 3. Output the results in text or use a visualization tool called d3.js.
   a) If you want to do just the simplest data analysis of "who does the most" and "which 
-organzation does the most":
+     organzation does the most":
     run gbasic.py as follows:
 
     Mac: python3 gbasic.py
@@ -103,8 +103,7 @@ organzation does the most":
     Mac: python3 gword.py:
     Win: gword.py:
 
-    This produces the file gword.js which you can visualize using the file 
-gword.htm.
+    This produces the file gword.js which you can visualize using the file gword.htm.
 
   c) If you want to visualize the email participation by organizations over time:
     run gline.py:
